@@ -40,7 +40,7 @@ jobs:
         chmod +x get_helm.sh
         ./get_helm.sh
     
-    - name: Clone Vault
+    - name: Clone vault
       uses: GuillaumeFalourd/clone-github-repo-action@v2.3
       with:
         depth: 1
